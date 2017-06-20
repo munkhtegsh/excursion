@@ -1,3 +1,42 @@
 body{
   background-color: black;
+    text-align: center;
+}
+
+h6{
+    font-family: "Verdana";
+    color: white;
+    font-weight: strong;
+    font-size: 40px;
+    text-align: center;
+    margin: 20px;
+}
+
+a{
+    color:aquamarine;
+    font-size:16px;
+}
+
+h6:nth-child(even){
+    font-family: "Verdana";
+    font-weight: 300;
+    font-size: 42px;
+    font-weight: normal;
+}
+
+p{
+    font-family: "Verdana";
+    font-size: 21px;
+    color: gray;
+}
+
+.bot{
+    margin-bottom: 20px;
+}
+
+.footer{
+    color:grey;
+    text-align: right;
+    font-size: 16px;
+    
 }
